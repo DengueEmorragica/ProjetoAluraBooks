@@ -1,11 +1,11 @@
 .tópicos {
     background: var(--azul-degrade);
     text-align: center;
-    padding: 2em 0;
+    padding: 1em 0;
 }
 
 .tópicos__titulo {
-    color: var(--branco);
+    color: #ffffff;;
     font-weight: 300;
     margin-bottom: 1em;
 }
@@ -17,7 +17,7 @@
 }
 
 .tópicos__item {
-    margin: 1.5em 0.5em;
+    margin: 2em 0.5em;
 }
 
 .tópicos__link {
@@ -25,15 +25,13 @@
     padding: 1em;
     background-color: var(--laranja);
     text-decoration: none;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 700;
-    border-radius: 8px;
 }
 
 @media screen and (min-width: 1024px) {
     .tópicos__titulo {
         font-size: 24px;
-        margin: 2em 0;
     }
 
     .tópicos__link {
@@ -41,16 +39,9 @@
     }
 }
 
+
 @media screen and (min-width: 1728px) {
     .tópicos {
         padding: 3em 30vw;
-    }
-
-    .tópicos__link {
-        font-size: 20px;
-    }
-
-    .tópicos__item {
-        padding-top: 1em;
     }
 }
